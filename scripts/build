@@ -2,4 +2,6 @@
 set -e
 
 node -r esm ./scripts/pre-build.js
+git -a ./lib/source.js
+git commit -v -m "chore(source): Add stringified source"
 aberlaas build "$@"
