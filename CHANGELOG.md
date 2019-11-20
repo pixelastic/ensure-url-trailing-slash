@@ -1,3 +1,10 @@
+## [0.0.5](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.4...0.0.5) (2019-11-20)
+
+
+### Bug Fixes
+
+* **method:** Wrap in self-invocation function ([d8e867e](https://github.com/pixelastic/ensure-url-trailing-slash/commit/d8e867eea27bfa2ed793e6febdbe0834499c14dd))
+
 ## [0.0.4](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.3...0.0.4) (2019-11-20)
 
 
