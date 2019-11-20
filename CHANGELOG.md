@@ -1,3 +1,11 @@
+## [0.0.4](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.3...0.0.4) (2019-11-20)
+
+
+### Bug Fixes
+
+* **build:** Fix build script ([07b75cc](https://github.com/pixelastic/ensure-url-trailing-slash/commit/07b75cc40b82c4fcbc15e73c5c2a9d704e00bcc3))
+* **replace:** Use proper invocation ([b7970c2](https://github.com/pixelastic/ensure-url-trailing-slash/commit/b7970c228977fe3f70e3cf9a7d0d7a6747471d89))
+
 ## [0.0.3](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.2...0.0.3) (2019-11-20)
 
 
