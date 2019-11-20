@@ -6,7 +6,7 @@ node -r esm ./scripts/pre-build.js
 
 # Commit it (if present)
 git add ./lib/source.js
-git diff --quiet || git commit -v -m "chore(source): Add stringified source"
+git diff --quiet --staged || git commit -v -m "chore(source): Add stringified source"
 
 # Build the final module
 aberlaas build "$@"
