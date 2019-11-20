@@ -3,5 +3,5 @@ set -e
 
 node -r esm ./scripts/pre-build.js
 git add ./lib/source.js
-git commit -v -m "chore(source): Add stringified source"
+git diff --quiet && git commit -v -m "chore(source): Add stringified source"
 aberlaas build "$@"
