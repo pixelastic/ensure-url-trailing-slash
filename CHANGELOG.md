@@ -1,3 +1,19 @@
+## [0.0.3](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.2...0.0.3) (2019-11-20)
+
+
+### Bug Fixes
+
+* **build:** Fix git command ([8cb2b7c](https://github.com/pixelastic/ensure-url-trailing-slash/commit/8cb2b7c0997f31be4997e705f030fde0483f6728))
+* **build:** Only commit if source has changed ([8486586](https://github.com/pixelastic/ensure-url-trailing-slash/commit/8486586d711b7d99defe96c65244358f76a0705b))
+* **build:** Only commit if source has changed ([27cbedd](https://github.com/pixelastic/ensure-url-trailing-slash/commit/27cbedd5a78c6bb81f3ca3591e585e59bc2d0553))
+
+
+### Features
+
+* **build:** Add commit step to build script ([bcb615c](https://github.com/pixelastic/ensure-url-trailing-slash/commit/bcb615c77d34e681e112845bdf8d0dc72cf47f45))
+* **build:** Add spinner steps on pre-build ([6891345](https://github.com/pixelastic/ensure-url-trailing-slash/commit/6891345cf1743f568e66aad84a440bf474eec983))
+* **source:** Add stringified source ([5298fd2](https://github.com/pixelastic/ensure-url-trailing-slash/commit/5298fd2995f05917ea4ed32a003e483568fca990))
+
 ## 0.0.2 (2019-11-20)
 
 
