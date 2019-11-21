@@ -1,3 +1,10 @@
+## [0.0.7](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.6...0.0.7) (2019-11-21)
+
+
+### Bug Fixes
+
+* **check:** Use .endsWith() instead of regexp ([4222683](https://github.com/pixelastic/ensure-url-trailing-slash/commit/4222683cc6a7c4390aa6d6203d72ffdb9a9e31b2))
+
 ## [0.0.6](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.5...0.0.6) (2019-11-20)
 
 ## [0.0.5](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.4...0.0.5) (2019-11-20)
