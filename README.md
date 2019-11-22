@@ -28,7 +28,7 @@ Conveniently, the main export also contains a `.source` property that contains
 a stringified version of the method (wrapped in a self-invocated function).
 
 So a typical usage would be to somehow import the module in your build process,
-than write the `.source` property in a `<script>` in your `<head>`.
+then write the `.source` property in a `<script>` in your `<head>`.
 
 ```pug
 head
