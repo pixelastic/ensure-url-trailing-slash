@@ -1,3 +1,5 @@
+# [0.1.0](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.7...0.1.0) (2019-11-22)
+
 ## [0.0.7](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.6...0.0.7) (2019-11-21)
 
 
