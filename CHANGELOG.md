@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.1.1...0.1.2) (2019-11-22)
+
+
+### Bug Fixes
+
+* **redirect:** Do not redirect when using extension ([8a15056](https://github.com/pixelastic/ensure-url-trailing-slash/commit/8a15056b7a5f0c9131ddc73f73313491315e1dfe))
+
 ## [0.1.1](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.1.0...0.1.1) (2019-11-22)
 
 # [0.1.0](https://github.com/pixelastic/ensure-url-trailing-slash/compare/0.0.7...0.1.0) (2019-11-22)
