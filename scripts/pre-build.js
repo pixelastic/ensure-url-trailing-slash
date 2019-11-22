@@ -39,7 +39,7 @@ import { _ } from 'golgoth';
   const boundStart = '<!-- minified: start -->';
   const boundEnd = '<!-- minified: end -->';
   const pattern = new RegExp(`${boundStart}(.*)${boundEnd}`, 's');
-  const example = `${boundStart}\n\`\`\`html\n<script>${content}</script>\n\`\`\`\n${boundEnd}`;
+  const example = `${boundStart}\n\`\`\`html\n<script>(function(){${content}})()</script>\n\`\`\`\n${boundEnd}`;
   const readmeUpdatedContent = _.replace(readmeContent, pattern, example);
   await firost.write(readmeUpdatedContent, readmePath);
 
