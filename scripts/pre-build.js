@@ -1,6 +1,7 @@
 import firost from 'firost';
 import path from 'path';
 import terser from 'terser';
+import { _ } from 'golgoth';
 
 (async () => {
   const spinner = firost.spinner();
@@ -30,6 +31,17 @@ import terser from 'terser';
   // Prettify it
   spinner.tick('Prettify it');
   await firost.shell('yarn run aberlaas lint --fix ./lib/source.js');
+
+  // Update the documentation
+  spinner.tick('Update documentation');
+  const readmePath = './README.md';
+  const readmeContent = await firost.read(readmePath);
+  const boundStart = '<!-- minified: start -->';
+  const boundEnd = '<!-- minified: end -->';
+  const pattern = new RegExp(`${boundStart}(.*)${boundEnd}`, 's');
+  const example = `${boundStart}\n\`\`\`html\n<script>${content}</script>\n\`\`\`\n${boundEnd}`;
+  const readmeUpdatedContent = _.replace(readmeContent, pattern, example);
+  await firost.write(readmeUpdatedContent, readmePath);
 
   spinner.success('Pre-build finished');
 })();
