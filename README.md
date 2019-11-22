@@ -20,7 +20,7 @@ a workaround.
 The main export of the module is a method that will check the URL and redirect
 (using `window.location.replace`) if needed.
 
-Note that because of the issue this module is aimed to solved, you shouldn't
+Note that because of the issue this module is aimed to solve, you shouldn't
 call the method from an external ressource, as this ressource might not get
 loaded. Instead, you should inline it in your `<head>`.
 
@@ -39,7 +39,7 @@ Or, simply copy paste the following minified code into your `<head>`.
 
 <!-- minified: start -->
 ```html
-<script>const{protocol:o,host:n,pathname:t,search:a,hash:c}=window.location;t.endsWith("/")||window.location.replace(`${o}//${n}${t}/${a}${c}`)</script>
+<script>(function(){const{protocol:o,host:n,pathname:t,search:a,hash:c}=window.location;t.endsWith("/")||window.location.replace(`${o}//${n}${t}/${a}${c}`)})()</script>
 ```
 <!-- minified: end -->
 
