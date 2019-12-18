@@ -2,7 +2,7 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "description": "Ensure the current url has a trailing slash",
   "devDependencies": {
-    "aberlaas": "0.8.1",
+    "aberlaas": "0.10.5",
     "esm": "3.2.25",
     "firost": "0.16.0",
     "golgoth": "0.6.0",
@@ -19,6 +19,7 @@
   "scripts": {
     "build": "./scripts/build",
     "build:watch": "./scripts/build-watch",
+    "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
     "lint:fix": "./scripts/lint-fix",
