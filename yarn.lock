@@ -3135,9 +3135,9 @@ globjoin@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
 
-golgoth@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.0.tgz#e0bf779719e8c0055f016abe0cd7a3526d1906ba"
+golgoth@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.1.tgz#3a53d1b42a92d98bf3498d0fe09170224bd65fe0"
   dependencies:
     chalk "3.0.0"
     dayjs "1.8.17"
@@ -3151,9 +3151,9 @@ golgoth@0.6.0:
     query-string "6.9.0"
     time-span "3.1.0"
 
-golgoth@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.1.tgz#3a53d1b42a92d98bf3498d0fe09170224bd65fe0"
+golgoth@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.2.tgz#c0bcc20a4377a3563683e33ec70400c62f385639"
   dependencies:
     chalk "3.0.0"
     dayjs "1.8.17"
