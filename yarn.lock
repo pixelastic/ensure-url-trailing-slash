@@ -3151,9 +3151,9 @@ golgoth@0.6.1:
     query-string "6.9.0"
     time-span "3.1.0"
 
-golgoth@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.2.tgz#c0bcc20a4377a3563683e33ec70400c62f385639"
+golgoth@0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.3.tgz#0e9a1fa9398c0c52725c5fac79e6d5dfccfcc243"
   dependencies:
     chalk "3.0.0"
     dayjs "1.8.17"
