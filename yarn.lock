@@ -1043,9 +1043,9 @@ abab@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
 
-aberlaas@0.10.5:
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.10.5.tgz#9527bdba5eaebbe71209d159da3439c27bb42614"
+aberlaas@0.10.6:
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.10.6.tgz#1464494e6bae67976a06b8dfd76becc12435a65c"
   dependencies:
     "@babel/cli" "7.7.4"
     "@babel/core" "7.7.4"
