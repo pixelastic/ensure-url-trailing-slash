@@ -7,7 +7,7 @@
     "firost": "0.20.0",
     "golgoth": "0.6.4",
     "jsdom": "15.2.1",
-    "terser": "4.5.1"
+    "terser": "4.6.0"
   },
   "files": [
     "build/"
