@@ -1093,9 +1093,9 @@ abab@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
 
-aberlaas@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.11.0.tgz#dafc52b273eed4d67c656ee05110872feaf0551f"
+aberlaas@0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.11.1.tgz#1939278cb5d9477616194cf7e821872de91687a6"
   dependencies:
     "@babel/cli" "7.7.7"
     "@babel/core" "7.7.7"
@@ -1110,10 +1110,10 @@ aberlaas@0.11.0:
     eslint "6.8.0"
     eslint-config-prettier "6.9.0"
     eslint-plugin-import "2.19.1"
-    eslint-plugin-jest "23.2.0"
-    eslint-plugin-jsdoc "20.0.0"
+    eslint-plugin-jest "23.3.0"
+    eslint-plugin-jsdoc "20.0.3"
     eslint-plugin-prettier "3.1.2"
-    firost "0.19.3"
+    firost "0.21.0"
     golgoth "0.6.4"
     husky "3.1.0"
     jasmine-fail-fast "2.0.0"
@@ -1710,20 +1710,6 @@ chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
 
-chokidar@3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.3.0.tgz#12c0714668c55800f659e262d4962a97faf554a6"
-  dependencies:
-    anymatch "~3.1.1"
-    braces "~3.0.2"
-    glob-parent "~5.1.0"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.2.0"
-  optionalDependencies:
-    fsevents "~2.1.1"
-
 chokidar@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.3.1.tgz#c84e5b3d18d9a4d77558fef466b1bf16bbeb3450"
@@ -2212,10 +2198,6 @@ dateformat@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
 
-dayjs@1.8.17:
-  version "1.8.17"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.17.tgz#53ec413f2a7b02afbea1846d61bb260fa8567cea"
-
 dayjs@1.8.18:
   version "1.8.18"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.18.tgz#c9b3fcd5a8eca96ed20a907f4491516d6eda15c9"
@@ -2549,15 +2531,15 @@ eslint-plugin-import@2.19.1:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-jest@23.2.0:
-  version "23.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.2.0.tgz#72d9ac0421b9b6ef774bcf4783329c016ed7cd6a"
+eslint-plugin-jest@23.3.0:
+  version "23.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.3.0.tgz#b1443d0c46d6a0de9ef3de78176dd6688c7d5326"
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-jsdoc@20.0.0:
-  version "20.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.0.0.tgz#210726135117c97fcf302ca312cfeffe7e72e80f"
+eslint-plugin-jsdoc@20.0.3:
+  version "20.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.0.3.tgz#29d9eba98e9872e4b4b6bce7e1013d8985fba089"
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
@@ -2673,10 +2655,6 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
 
-eventemitter2@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-5.0.1.tgz#6197a095d5fb6b57e8942f6fd7eaad63a09c9452"
-
 eventemitter2@6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.0.0.tgz#218eb512c3603c5341724b6af7b686a1aa5ab8f5"
@@ -2684,21 +2662,6 @@ eventemitter2@6.0.0:
 exec-sh@^0.3.2:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/exec-sh/-/exec-sh-0.3.4.tgz#3a018ceb526cc6f6df2bb504b2bfe8e3a4934ec5"
-
-execa@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-3.4.0.tgz#c08ed4550ef65d858fac269ffc8572446f37eb89"
-  dependencies:
-    cross-spawn "^7.0.0"
-    get-stream "^5.0.0"
-    human-signals "^1.1.1"
-    is-stream "^2.0.0"
-    merge-stream "^2.0.0"
-    npm-run-path "^4.0.0"
-    onetime "^5.1.0"
-    p-finally "^2.0.0"
-    signal-exit "^3.0.2"
-    strip-final-newline "^2.0.0"
 
 execa@4.0.0:
   version "4.0.0"
@@ -2959,25 +2922,6 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-firost@0.19.3:
-  version "0.19.3"
-  resolved "https://registry.yarnpkg.com/firost/-/firost-0.19.3.tgz#93d751802c2002cb8b0bc06d73a1785f24694665"
-  dependencies:
-    chokidar "3.3.0"
-    esm "3.2.25"
-    eventemitter2 "5.0.1"
-    execa "3.4.0"
-    fs-extra "8.1.0"
-    globby "10.0.1"
-    golgoth "0.6.1"
-    inquirer "7.0.0"
-    is-glob "4.0.1"
-    json-stable-stringify "1.0.1"
-    nanoid "2.1.7"
-    ora "4.0.3"
-    shelljs "0.8.3"
-    which "2.0.2"
-
 firost@0.21.0:
   version "0.21.0"
   resolved "https://registry.yarnpkg.com/firost/-/firost-0.21.0.tgz#1c669b01d32fa0edb4615c073639f29b167f5a13"
@@ -3074,7 +3018,7 @@ fsevents@^1.2.7:
     bindings "^1.5.0"
     nan "^2.12.1"
 
-fsevents@~2.1.1, fsevents@~2.1.2:
+fsevents@~2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.2.tgz#4c0a1fb34bc68e543b4b82a9ec392bfbda840805"
 
@@ -3292,22 +3236,6 @@ globby@^9.2.0:
 globjoin@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
-
-golgoth@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/golgoth/-/golgoth-0.6.1.tgz#3a53d1b42a92d98bf3498d0fe09170224bd65fe0"
-  dependencies:
-    chalk "3.0.0"
-    dayjs "1.8.17"
-    flat "5.0.0"
-    got "9.6.0"
-    lodash "^4.17.15"
-    p-all "2.1.0"
-    p-map "3.0.0"
-    p-map-series "2.1.0"
-    pify "4.0.1"
-    query-string "6.9.0"
-    time-span "3.1.0"
 
 golgoth@0.6.4:
   version "0.6.4"
@@ -5073,10 +5001,6 @@ nan@^2.12.1:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
 
-nanoid@2.1.7:
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.7.tgz#d775e3e7c6470bbaaae3da9a647a80e228e0abf7"
-
 nanoid@2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.9.tgz#edc71de7b16fc367bbb447c7a638ccebe07a17a1"
@@ -5953,12 +5877,6 @@ readdirp@^2.2.1:
     graceful-fs "^4.1.11"
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
-
-readdirp@~3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.2.0.tgz#c30c33352b12c96dfb4b895421a49fd5a9593839"
-  dependencies:
-    picomatch "^2.0.4"
 
 readdirp@~3.3.0:
   version "3.3.0"
