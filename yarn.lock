@@ -1093,9 +1093,9 @@ abab@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
 
-aberlaas@0.11.1:
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.11.1.tgz#1939278cb5d9477616194cf7e821872de91687a6"
+aberlaas@0.11.2:
+  version "0.11.2"
+  resolved "https://registry.yarnpkg.com/aberlaas/-/aberlaas-0.11.2.tgz#28c5d206f1e3c17f5ad952683afd4ba99d2d290a"
   dependencies:
     "@babel/cli" "7.7.7"
     "@babel/core" "7.7.7"
@@ -1109,9 +1109,9 @@ aberlaas@0.11.1:
     ci-info "2.0.0"
     eslint "6.8.0"
     eslint-config-prettier "6.9.0"
-    eslint-plugin-import "2.19.1"
-    eslint-plugin-jest "23.3.0"
-    eslint-plugin-jsdoc "20.0.3"
+    eslint-plugin-import "2.20.0"
+    eslint-plugin-jest "23.4.0"
+    eslint-plugin-jsdoc "20.1.0"
     eslint-plugin-prettier "3.1.2"
     firost "0.21.0"
     golgoth "0.6.4"
@@ -2514,9 +2514,9 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@2.19.1:
-  version "2.19.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.19.1.tgz#5654e10b7839d064dd0d46cd1b88ec2133a11448"
+eslint-plugin-import@2.20.0:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.20.0.tgz#d749a7263fb6c29980def8e960d380a6aa6aecaa"
   dependencies:
     array-includes "^3.0.3"
     array.prototype.flat "^1.2.1"
@@ -2531,15 +2531,15 @@ eslint-plugin-import@2.19.1:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-jest@23.3.0:
-  version "23.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.3.0.tgz#b1443d0c46d6a0de9ef3de78176dd6688c7d5326"
+eslint-plugin-jest@23.4.0:
+  version "23.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.4.0.tgz#5209a659cf415a5154d64f957e0508ee83de224b"
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
-eslint-plugin-jsdoc@20.0.3:
-  version "20.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.0.3.tgz#29d9eba98e9872e4b4b6bce7e1013d8985fba089"
+eslint-plugin-jsdoc@20.1.0:
+  version "20.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.1.0.tgz#7f3f55cc77d87ab34b36a98b8ac2f47eb28e60e7"
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
