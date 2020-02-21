@@ -2,22 +2,22 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "description": "Ensure the current url has a trailing slash",
   "devDependencies": {
-    "aberlaas": "0.11.4",
+    "aberlaas": "1.1.1",
     "esm": "3.2.25",
-    "firost": "0.21.0",
-    "golgoth": "0.6.4",
-    "terser": "4.6.3"
+    "firost": "1.2.1",
+    "golgoth": "1.1.1",
+    "terser": "4.6.3",
+    "uglify-js": "3.8.0"
   },
   "files": [
-    "build/"
+    "lib/*.js"
   ],
   "license": "MIT",
-  "main": "build/index.js",
+  "main": "lib/main.js",
   "name": "ensure-url-trailing-slash",
   "repository": "git@github.com:pixelastic/ensure-url-trailing-slash.git",
   "scripts": {
-    "build": "./scripts/build",
-    "build:watch": "./scripts/build-watch",
+    "build": "node -r esm ./scripts/build.js",
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",

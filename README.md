@@ -39,7 +39,7 @@ Or, simply copy paste the following minified code into your `<head>`.
 
 <!-- minified: start -->
 ```html
-<script>(function(){const{protocol:o,host:n,pathname:t,search:a,hash:c}=window.location;t.endsWith("/")||t.includes(".")||window.location.replace(`${o}//${n}${t}/${a}${c}`)})()</script>
+<script>(function(){const{protocol:n,host:o,pathname:a,search:i,hash:c}=window.location;a.endsWith("/")||a.includes(".")||window.location.replace(`${n}//${o}${a}/${i}${c}`)})()</script>
 ```
 <!-- minified: end -->
 
