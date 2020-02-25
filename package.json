@@ -3,7 +3,6 @@
   "description": "Ensure the current url has a trailing slash",
   "devDependencies": {
     "aberlaas": "1.2.1",
-    "esm": "3.2.25",
     "firost": "1.3.0",
     "golgoth": "1.1.1",
     "terser": "4.6.4",
@@ -17,7 +16,7 @@
   "name": "ensure-url-trailing-slash",
   "repository": "git@github.com:pixelastic/ensure-url-trailing-slash.git",
   "scripts": {
-    "build": "node -r esm ./scripts/build.js",
+    "build": "node ./scripts/build.js",
     "ci": "./scripts/ci",
     "husky:precommit": "./scripts/husky-precommit",
     "lint": "./scripts/lint",
