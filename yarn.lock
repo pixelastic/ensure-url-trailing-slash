@@ -1351,10 +1351,10 @@ abab@^2.0.0, abab@^2.0.3:
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.3.tgz#623e2075e02eb2d3f2475e49f99c91846467907a"
   integrity sha512-tsFzPpcttalNjFBCFMqsKYQcWxxen1pgJR56by//QwvJc4/OUS3kPOOttx2tSIfjsylB0pYu7f5D3K1RCxUnUg==
 
-aberlaas@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/aberlaas/-/aberlaas-1.6.0.tgz#930e06ded996902bcc875c6521779ef2ecd3fe9d"
-  integrity sha512-xtv3rCZravTuYAQNwhttf1svTFXuq8mN9BVCVg3NBdSRdlHdNHL62paydwuIFD/p42Ynayq06804EHjAx6ikIQ==
+aberlaas@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.npmjs.org/aberlaas/-/aberlaas-1.6.1.tgz#44ff0aa8c6daf9c75b6c1dcd4ba4a45d194dc9e7"
+  integrity sha512-/4zQeG/xujnJMzydUuXEGSi8H9XvnTADCVqXDKrDjYqVbVd6Rg/qs4qe+Xckkq/QLqAerC0SKiyaO8vSst81Aw==
   dependencies:
     "@babel/cli" "7.8.4"
     "@babel/core" "7.9.0"
