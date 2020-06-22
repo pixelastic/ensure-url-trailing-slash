@@ -2,7 +2,7 @@
   "author": "Pixelastic <tim@pixelastic.com>",
   "description": "Ensure the current url has a trailing slash",
   "devDependencies": {
-    "aberlaas": "1.7.0",
+    "aberlaas": "1.7.1",
     "firost": "1.7.0",
     "golgoth": "1.2.0",
     "jsdom": "16.2.2",
