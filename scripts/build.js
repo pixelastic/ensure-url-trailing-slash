@@ -1,6 +1,6 @@
-const write = require('firost/lib/write');
-const read = require('firost/lib/read');
-const run = require('firost/lib/run');
+const write = require('firost/write');
+const read = require('firost/read');
+const run = require('firost/run');
 const terser = require('terser');
 
 (async () => {
