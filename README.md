@@ -1,17 +1,17 @@
 # `ensure-url-trailing-slash`
 
-Check if the current URL ends with a trailing slash and redirects if not. This
-will fix `site.com/foo` into `site.com/foo/`.
+Check if the current URL ends with a trailing slash and redirects to it if not.
+This will fix `site.com/foo` into `site.com/foo/`.
 
 ## Why?
 
-This is useful for websites deployed on Netlify where `site.com/foo` and
+This is useful for websites deployed on Netlify because `site.com/foo` and
 `site.com/foo/` will resolve to the same page content. But `site.com/foo` is
 considered a file named `foo` at the root, while `site.com/foo/` is considered
 a file named `index.html` in the `foo/` directory. This has an impact on the
 way relative paths to assets are handled.
 
-There is currently (as of November 2019) [no way it to force a redirect][1] from
+There is currently (as of November 2019) [no way to force a redirect][1] from
 `site.com/foo` to `site.com/foo/` from Netlify, so this module comes as
 a workaround.
 

@@ -9,7 +9,7 @@ const terser = require('terser');
   const source = method.toString();
 
   // Minify it
-  const minified = terser.minify(source).code;
+  const minified = (await terser.minify(source)).code;
 
   // Keep only the method body
   const regexp = /(?<start>[^{]*){(?<content>.*)}$/s;
