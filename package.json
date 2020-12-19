@@ -3,7 +3,7 @@
   "description": "Ensure the current url has a trailing slash",
   "devDependencies": {
     "aberlaas": "1.14.0",
-    "firost": "2.2.0",
+    "firost": "2.3.0",
     "golgoth": "2.0.0",
     "jsdom": "16.4.0",
     "terser": "5.5.1",
