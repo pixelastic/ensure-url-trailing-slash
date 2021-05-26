@@ -7,7 +7,7 @@
     "golgoth": "2.0.0",
     "jsdom": "16.6.0",
     "terser": "5.7.0",
-    "uglify-js": "3.13.7"
+    "uglify-js": "3.13.8"
   },
   "files": [
     "lib/*.js"
