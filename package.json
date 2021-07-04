@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "lib/main.js",
   "name": "ensure-url-trailing-slash",
-  "repository": "git@github.com:pixelastic/ensure-url-trailing-slash.git",
+  "repository": "pixelastic/ensureUrlTrailingSlash",
   "scripts": {
     "build": "node ./scripts/build.js",
     "ci": "./scripts/ci",
