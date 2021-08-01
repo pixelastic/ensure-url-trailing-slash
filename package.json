@@ -5,7 +5,7 @@
     "aberlaas": "1.24.3",
     "firost": "2.16.2",
     "golgoth": "2.0.0",
-    "jsdom": "16.6.0",
+    "jsdom": "16.7.0",
     "terser": "5.7.1",
     "uglify-js": "3.14.1"
   },
