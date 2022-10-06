@@ -7445,10 +7445,10 @@ terminal-link@^2.0.0, terminal-link@^2.1.1:
     ansi-escapes "^4.2.1"
     supports-hyperlinks "^2.0.0"
 
-terser@5.15.0:
-  version "5.15.0"
-  resolved "https://registry.npmjs.org/terser/-/terser-5.15.0.tgz#e16967894eeba6e1091509ec83f0c60e179f2425"
-  integrity sha512-L1BJiXVmheAQQy+as0oF3Pwtlo4s3Wi1X2zNZ2NxOB4wx9bdS9Vk67XQENLFdLYGCK/Z2di53mTj/hBafR+dTA==
+terser@5.15.1:
+  version "5.15.1"
+  resolved "https://registry.npmjs.org/terser/-/terser-5.15.1.tgz#8561af6e0fd6d839669c73b92bdd5777d870ed6c"
+  integrity sha512-K1faMUvpm/FBxjBXud0LWVAGxmvoPbZbfTCYbSgaaYQaIXI3/TdI7a7ZGA73Zrou6Q8Zmz3oeUTsp/dj+ag2Xw==
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
@@ -7656,10 +7656,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-uglify-js@3.17.2:
-  version "3.17.2"
-  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.2.tgz#f55f668b9a64b213977ae688703b6bbb7ca861c6"
-  integrity sha512-bbxglRjsGQMchfvXZNusUcYgiB9Hx2K4AHYXQy2DITZ9Rd+JzhX7+hoocE5Winr7z2oHvPsekkBwXtigvxevXg==
+uglify-js@3.17.3:
+  version "3.17.3"
+  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.3.tgz#f0feedf019c4510f164099e8d7e72ff2d7304377"
+  integrity sha512-JmMFDME3iufZnBpyKL+uS78LRiC+mK55zWfM5f/pWBJfpOttXAqYfdDGRukYhJuyRinvPVAtUhvy7rlDybNtFg==
 
 unified@^9.1.0:
   version "9.2.0"
