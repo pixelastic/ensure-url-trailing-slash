@@ -6,7 +6,7 @@
     "firost": "2.17.0",
     "golgoth": "2.1.0",
     "jsdom": "19.0.0",
-    "terser": "5.27.1",
+    "terser": "5.27.2",
     "uglify-js": "3.17.4"
   },
   "files": [
